@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registros",
+  "info": {
+    "name": "registros"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_empresa": {
+      "type": "string"
+    },
+    "id_modulo": {
+      "type": "string"
+    },
+    "informacion": {
+      "type": "json"
+    }
+  }
+}

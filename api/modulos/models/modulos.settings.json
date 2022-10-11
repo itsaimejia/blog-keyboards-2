@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modulos",
+  "info": {
+    "name": "modulos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_empresa": {
+      "type": "string"
+    },
+    "id_modulo": {
+      "type": "string"
+    },
+    "configuracion": {
+      "type": "json"
+    }
+  }
+}

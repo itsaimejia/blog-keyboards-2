@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empresas",
+  "info": {
+    "name": "empresas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_empresa": {
+      "type": "string"
+    },
+    "nombre": {
+      "type": "string"
+    }
+  }
+}
